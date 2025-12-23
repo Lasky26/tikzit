@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.16)
 project(tikzit LANGUAGES CXX)
 
 if (NOT QT_VER)
-    set (QT_VER "Qt5")
+    set (QT_VER "Qt6")
 endif()
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
