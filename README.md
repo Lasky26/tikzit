@@ -1,7 +1,7 @@
 
 # TikZiT
 
-TikZiT is a graphical tool for rapidly creating graphs and string diagrams using PGF/TikZ. It was used, for example, to make all of the 2500+ diagrams in <a href="http://cambridge.org/pqp">this book</a>. This is forked from official repo to build a arm64 version on MacOS Tahoe.
+TikZiT is a graphical tool for rapidly creating graphs and string diagrams using PGF/TikZ. It was used, for example, to make all of the 2500+ diagrams in <a href="http://cambridge.org/pqp">this book</a>. This is forked from official repo to build an arm64 version on MacOS Tahoe.
 
 ## Building on MacOS
 
@@ -28,3 +28,4 @@ or add `/usr/local/opt/qt/bin` to your `$PATH`. Once this is done, TikZiT can be
 Optional: To bundle the required libraries into `tikzit.app` and create a `.dmg` file, you can additionally run:
 
     ./deploy-osx.sh
+
